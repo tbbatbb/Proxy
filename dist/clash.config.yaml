@@ -1833,114 +1833,48 @@ proxies:
 - cipher: aes-128-cfb
   name: CN_6_12@5
   password: QazEdcTgb159@$*
-  port: 24073
-  server: 14.29.124.168
+  port: 11020
+  server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
   name: CN_7_12@6
   password: QazEdcTgb159@$*
-  port: 25210
+  port: 24016
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
   name: CN_8_12@7
   password: QazEdcTgb159@$*
-  port: 25254
-  server: 14.29.124.168
+  port: 11010
+  server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
   name: CN_9_12@8
   password: QazEdcTgb159@$*
-  port: 25289
+  port: 24073
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
   name: CN_10_12@9
   password: QazEdcTgb159@$*
-  port: 24002
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_11_12@10
-  password: QazEdcTgb159@$*
-  port: 11003
-  server: 14.29.124.174
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_12_12@11
-  password: QazEdcTgb159@$*
-  port: 25222
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_13_12@12
-  password: QazEdcTgb159@$*
-  port: 25261
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_14_12@13
-  password: QazEdcTgb159@$*
-  port: 25271
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_15_12@14
-  password: QazEdcTgb159@$*
-  port: 25251
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_16_12@15
-  password: QazEdcTgb159@$*
-  port: 25207
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_17_12@16
-  password: QazEdcTgb159@$*
   port: 11008
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: CN_18_12@17
+  name: CN_11_12@10
+  obfs: plain
   password: QazEdcTgb159@$*
-  port: 24008
+  port: 24001
+  protocol: origin
   server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_19_12@18
-  password: QazEdcTgb159@$*
-  port: 25297
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_20_12@19
-  password: QazEdcTgb159@$*
-  port: 11020
-  server: 14.29.124.174
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_21_12@20
-  password: QazEdcTgb159@$*
-  port: 25226
-  server: 14.29.124.168
-  type: ss
+  type: ssr
 - cipher: aes-256-cfb
-  name: CY_22_12@21
+  name: CY_12_12@11
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 213.169.137.221
   type: ss
-- cipher: aes-128-ctr
-  name: DE_23_12@22
-  obfs: tls1.2_ticket_auth
-  password: sEscPBiAD9K$&@79
-  port: 443
-  protocol: auth_aes128_md5
-  server: 162.55.231.78
-  type: ssr
-- name: DE_24_12@23
+- name: DE_13_12@12
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
@@ -1950,7 +1884,7 @@ proxies:
 - alterId: 64
   cipher: auto
   http-opts: {}
-  name: FR_26_12@25
+  name: FR_15_12@14
   network: ws
   port: 443
   server: 54.37.192.112
@@ -1963,139 +1897,124 @@ proxies:
     HOST: 54.37.192.112
   ws-path: /path/120208301422
 - cipher: aes-256-cfb
-  name: IS_27_12@26
+  name: IS_16_12@15
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.235.49.158
   type: ss
-- name: JP_28_12@27
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: 443
-  server: jgw2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: LT_30_12@29
+  name: LT_18_12@17
   password: UWZQeLRWnkqgkseq
   port: 9032
   server: 213.183.63.221
   type: ss
 - cipher: aes-256-cfb
-  name: LT_31_12@30
+  name: LT_19_12@18
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.15
+  type: ss
+- cipher: aes-256-cfb
+  name: LT_20_12@19
   password: GA9KzeEgvfxNrgmM
   port: 9019
   server: 213.183.53.222
   type: ss
 - cipher: aes-256-cfb
-  name: LT_32_12@31
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.15
+  name: NL_22_12@21
+  password: U6qnYRhfyDmn8sgn
+  port: 9041
+  server: 185.246.155.29
   type: ss
 - cipher: aes-256-gcm
-  name: NL_36_12@35
+  name: NL_23_12@22
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: NL_39_12@38
+  name: NL_25_12@24
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: NL_40_12@39
+  name: NL_29_12@28
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
 - cipher: aes-256-cfb
-  name: NL_41_12@40
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 185.246.155.29
-  type: ss
-- cipher: aes-256-cfb
-  name: RS_42_12@41
+  name: RS_30_12@29
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 194.71.126.31
   type: ss
 - cipher: aes-256-cfb
-  name: RU_43_12@42
+  name: RU_31_12@30
   password: vDS9G2p
   port: 21247
   server: 185.4.65.6
   type: ss
-- name: SG_44_12@43
+- name: SG_32_12@31
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_45_12@44
-  password: G!yBwPWH3Vao
-  port: 804
-  server: 167.88.61.2
-  type: ss
 - cipher: aes-256-gcm
-  name: US_47_12@46
+  name: US_33_12@32
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.121.43.71
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_48_12@47
+  name: US_35_12@34
   password: G!yBwPWH3Vao
-  port: 805
+  port: 810
   server: 167.88.61.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_49_12@48
-  password: G!yBwPWH3Vao
-  port: 811
-  server: 167.88.61.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_51_12@50
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 167.88.61.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_52_12@51
-  password: G!yBwPWH3Vao
-  port: 809
-  server: 167.88.61.2
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_57_12@56
+  name: US_37_12@36
   password: G!yBwPWH3Vao
   port: 806
   server: 167.88.61.2
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_59_12@58
+  name: US_38_12@37
   password: G!yBwPWH3Vao
-  port: 810
+  port: 805
   server: 167.88.61.2
   type: ss
-- cipher: aes-256-cfb
-  name: US_61_12@60
-  obfs: tls1.2_ticket_auth
-  password: YFVrXZgRo
-  port: 8081
-  protocol: origin
-  server: us-am32-5.eqnode.net
-  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: US_42_12@41
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 167.88.61.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_43_12@42
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 167.88.61.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_45_12@44
+  password: G!yBwPWH3Vao
+  port: 811
+  server: 167.88.61.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_47_12@46
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 167.88.61.2
+  type: ss
 - alterId: 0
   cipher: auto
   http-opts: {}
-  name: US_62_12@61
+  name: US_51_12@50
   network: ws
   port: 153
   server: v04.ssrsub.com
@@ -2106,31 +2025,24 @@ proxies:
   ws-headers:
     HOST: d76bb35696.laowanxiang.com
   ws-path: /api/v3/download.getFile
-- name: US_65_12@64
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  port: 443
-  server: fhcamd1.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_66_12@65
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s1.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_67_12@66
+- name: US_52_12@51
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_68_12@67
-  password: c8bae3de-16ed-4247-8a99-f38ef79a4b51
-  port: 48240
-  server: bai-piao-wang-zhe10.98848.xyz
+- name: US_53_12@52
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_54_12@53
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  port: 443
+  server: fhcamd1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -2400,46 +2312,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -2705,46 +2603,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3014,46 +2898,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 - name: 📲 电报信息
   proxies:
@@ -3320,46 +3190,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -3626,46 +3482,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -3932,46 +3774,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4255,46 +4083,32 @@ proxy-groups:
   - CN_9_12@8
   - CN_10_12@9
   - CN_11_12@10
-  - CN_12_12@11
-  - CN_13_12@12
-  - CN_14_12@13
-  - CN_15_12@14
-  - CN_16_12@15
-  - CN_17_12@16
-  - CN_18_12@17
-  - CN_19_12@18
-  - CN_20_12@19
-  - CN_21_12@20
-  - CY_22_12@21
-  - DE_23_12@22
-  - DE_24_12@23
-  - FR_26_12@25
-  - IS_27_12@26
-  - JP_28_12@27
-  - LT_30_12@29
-  - LT_31_12@30
-  - LT_32_12@31
-  - NL_36_12@35
-  - NL_39_12@38
-  - NL_40_12@39
-  - NL_41_12@40
-  - RS_42_12@41
-  - RU_43_12@42
-  - SG_44_12@43
+  - CY_12_12@11
+  - DE_13_12@12
+  - FR_15_12@14
+  - IS_16_12@15
+  - LT_18_12@17
+  - LT_19_12@18
+  - LT_20_12@19
+  - NL_22_12@21
+  - NL_23_12@22
+  - NL_25_12@24
+  - NL_29_12@28
+  - RS_30_12@29
+  - RU_31_12@30
+  - SG_32_12@31
+  - US_33_12@32
+  - US_35_12@34
+  - US_37_12@36
+  - US_38_12@37
+  - US_42_12@41
+  - US_43_12@42
   - US_45_12@44
   - US_47_12@46
-  - US_48_12@47
-  - US_49_12@48
   - US_51_12@50
   - US_52_12@51
-  - US_57_12@56
-  - US_59_12@58
-  - US_61_12@60
-  - US_62_12@61
-  - US_65_12@64
-  - US_66_12@65
-  - US_67_12@66
-  - US_68_12@67
+  - US_53_12@52
+  - US_54_12@53
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
