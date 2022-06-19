@@ -2,7 +2,7 @@ name: Delete Commit Records Weekly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '* 3 * * 6'
+    - cron: '* 3 1 * *'
 jobs:
   build:
     runs-on: ubuntu-latest
