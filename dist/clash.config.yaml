@@ -2118,76 +2118,82 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CA_11_14@10
+  name: CA_10_14@9
   password: G!yBwPWH3Vao
   port: 805
   server: 72.140.224.197
   type: ss
 - cipher: aes-128-cfb
+  name: CN_11_14@10
+  password: QazEdcTgb159@$*
+  port: 11031
+  server: 14.29.124.174
+  type: ss
+- cipher: aes-128-cfb
   name: CN_12_14@11
   password: QazEdcTgb159@$*
-  port: 11004
-  server: 14.29.124.174
+  port: 25297
+  server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
   name: CN_13_14@12
-  password: QazEdcTgb159@$*
-  port: 25254
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_14_14@13
-  password: QazEdcTgb159@$*
-  port: 25226
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_15_14@14
-  password: QazEdcTgb159@$*
-  port: 11007
-  server: 14.29.124.174
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_16_14@15
-  password: QazEdcTgb159@$*
-  port: 24009
-  server: 14.29.124.168
-  type: ss
-- cipher: aes-128-cfb
-  name: CN_17_14@16
   password: QazEdcTgb159@$*
   port: 24001
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: CN_18_14@17
+  name: CN_14_14@13
   password: QazEdcTgb159@$*
-  port: 11009
-  server: 14.29.124.174
+  port: 24009
+  server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: CN_19_14@18
+  name: CN_15_14@14
   password: QazEdcTgb159@$*
   port: 24046
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: CN_20_14@19
+  name: CN_16_14@15
   password: QazEdcTgb159@$*
-  port: 10064
-  server: 180.163.62.91
+  port: 11035
+  server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: CN_21_14@20
+  name: CN_17_14@16
+  password: QazEdcTgb159@$*
+  port: 25247
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-128-cfb
+  name: CN_18_14@17
   password: QazEdcTgb159@$*
   port: 24016
   server: 14.29.124.168
   type: ss
 - cipher: aes-128-cfb
-  name: CN_22_14@21
+  name: CN_19_14@18
   password: QazEdcTgb159@$*
   port: 11040
   server: 14.29.124.174
+  type: ss
+- cipher: aes-128-cfb
+  name: CN_20_14@19
+  password: QazEdcTgb159@$*
+  port: 25210
+  server: 14.29.124.168
+  type: ss
+- cipher: aes-128-cfb
+  name: CN_21_14@20
+  password: QazEdcTgb159@$*
+  port: 11007
+  server: 14.29.124.174
+  type: ss
+- cipher: aes-128-cfb
+  name: CN_22_14@21
+  password: QazEdcTgb159@$*
+  port: 25289
+  server: 14.29.124.168
   type: ss
 - cipher: aes-256-cfb
   name: CY_23_14@22
@@ -2196,16 +2202,16 @@ proxies:
   server: 213.169.137.221
   type: ss
 - name: CZ_24_14@23
-  password: mMQ6qJB9xbhiRvgg
+  password: 3gLlCYBipVwr6Y5F
   port: 443
-  server: v2cross.com.01.v2ce.com
+  server: v2cross.com.02.v2ce.com
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: CZ_25_14@24
-  password: 3gLlCYBipVwr6Y5F
+  password: mMQ6qJB9xbhiRvgg
   port: 443
-  server: v2cross.com.02.v2ce.com
+  server: v2cross.com.01.v2ce.com
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -2239,44 +2245,43 @@ proxies:
   type: trojan
   udp: true
 - name: GB_29_14@28
-  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  port: 443
-  server: jgwld2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: GB_30_14@29
   password: 02e653c9-7c93-46a9-999d-11834bd0c577
   port: 443
   server: jgwld1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: GB_31_14@30
+- name: GB_30_14@29
   password: 71b55a84-3fac-4458-abff-eaad79219c91
   port: 443
   server: jgwld3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: HK_32_14@31
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+- name: GB_31_14@30
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
   port: 443
-  server: tj-hk01.yiyodns.xyz
+  server: jgwld2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: IS_33_14@32
+  name: IS_32_14@31
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.235.49.158
   type: ss
 - cipher: aes-256-cfb
+  name: LT_34_14@33
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 46.183.185.15
+  type: ss
+- cipher: aes-256-cfb
   name: LT_35_14@34
-  password: c3NtHJ5ujV2tGDfj
-  port: 9084
-  server: 213.183.63.221
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  server: 213.183.53.221
   type: ss
 - cipher: aes-256-cfb
   name: LT_36_14@35
@@ -2286,184 +2291,184 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   name: LT_37_14@36
-  password: rpgbNnU9rDDU4aWZ
-  port: 9094
-  server: 213.183.53.221
-  type: ss
-- cipher: aes-256-cfb
-  name: LT_38_14@37
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 46.183.185.15
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_40_14@39
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  server: 185.246.155.35
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_41_14@40
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  server: 185.246.155.23
-  type: ss
-- cipher: aes-256-cfb
-  name: NL_42_14@41
-  password: y9VURyNzJWNRYEGQ
-  port: 9008
-  server: 185.246.155.29
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 213.183.63.221
   type: ss
 - cipher: aes-256-gcm
-  name: NL_44_14@43
+  name: NL_39_14@38
   password: zDNVedRFPQexG9v
   port: 6379
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: NL_46_14@45
+  name: NL_40_14@39
   password: Y6R9pAtvxxzmGC
   port: 5001
   server: 85.208.108.18
   type: ss
-- cipher: aes-256-cfb
-  name: NL_47_14@46
-  password: U6qnYRhfyDmn8sgn
-  port: 9041
-  server: 213.183.51.171
-  type: ss
 - cipher: aes-256-gcm
-  name: NL_50_14@49
+  name: NL_42_14@41
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: PL_51_14@50
+  name: PL_46_14@45
   password: KixLvKzwjekG00rm
   port: 5500
   server: 194.15.196.78
   type: ss
 - cipher: aes-256-cfb
-  name: RS_52_14@51
+  name: RO_47_14@46
+  password: wjTugX3ZtHMB9c3Z
+  port: 9057
+  server: 185.126.116.119
+  type: ss
+- cipher: aes-256-cfb
+  name: RS_48_14@47
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 194.71.126.31
   type: ss
 - cipher: aes-256-cfb
-  name: RU_53_14@52
-  password: vDS9G2p
-  port: 21247
-  server: 185.4.65.6
-  type: ss
-- cipher: aes-256-cfb
-  name: RU_54_14@53
+  name: RU_49_14@48
   password: BejrQvtu9sqUeNuZ
   port: 9024
   server: 217.30.10.63
   type: ss
 - cipher: aes-256-cfb
-  name: RU_55_14@54
-  password: wjTugX3ZtHMB9c3Z
-  port: 9057
-  server: 217.30.10.67
+  name: RU_50_14@49
+  password: vDS9G2p
+  port: 21247
+  server: 185.4.65.6
   type: ss
-- name: RU_56_14@55
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  port: 14326
-  server: hkbgp1.jiantian.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: RU_57_14@56
-  password: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
-  port: 18443
-  server: t03.ssrsub.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: RU_58_14@57
+- name: RU_51_14@50
   password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
   port: 34532
   server: hkbgp2.jiantian.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_60_14@59
-  password: 08964210-e7b8-11ec-95aa-1239d0255272
-  port: 443
-  server: w12.udpgw.com
+- name: RU_52_14@51
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  port: 14326
+  server: hkbgp1.jiantian.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: SG_61_14@60
-  password: affae2e0-e84b-11ec-b09f-1239d0255272
-  port: 443
-  server: trojan1.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_62_14@61
-  password: f64e69c0-e7b7-11ec-ab81-1239d0255272
-  port: 443
-  server: w11.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_63_14@62
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s2.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_64_14@63
-  password: 16877c70-e7b8-11ec-99f2-1239d0255272
-  port: 443
-  server: w13.udpgw.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: SG_65_14@64
+- name: SG_53_14@52
   password: sharecentre
   port: 443
   server: sg.sharecentrepro.tk
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: UA_66_14@65
-  password: kGrwqmB1nEKUsDwE
+- name: SG_54_14@53
+  password: f64e69c0-e7b7-11ec-ab81-1239d0255272
   port: 443
-  server: v2cross.com.05.v2ce.com
+  server: w11.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: UA_67_14@66
-  password: 5y8y3CwxRVYhyfSY
+- name: SG_55_14@54
+  password: affae2e0-e84b-11ec-b09f-1239d0255272
   port: 443
-  server: ce.rutracker-cn.com
+  server: trojan1.udpgw.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: UA_68_14@67
+- name: SG_56_14@55
+  password: 08964210-e7b8-11ec-95aa-1239d0255272
+  port: 443
+  server: w12.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_57_14@56
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: SG_58_14@57
+  password: 16877c70-e7b8-11ec-99f2-1239d0255272
+  port: 443
+  server: w13.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: UA_59_14@58
   password: vGWCNNfBHwSY6m6M
   port: 443
   server: v2cross.com.04.v2ce.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: UA_69_14@68
+- name: UA_60_14@59
+  password: 5y8y3CwxRVYhyfSY
+  port: 443
+  server: ce.rutracker-cn.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: UA_61_14@60
   password: ZD4dLSBXiMrmzdLd
   port: 443
   server: v2cross.com.03.v2ce.com
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: UA_62_14@61
+  password: kGrwqmB1nEKUsDwE
+  port: 443
+  server: v2cross.com.05.v2ce.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: UA_63_14@62
+  password: HTrovQkamDxNfaD5
+  port: 443
+  server: cz5.v2ce.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: US_72_14@71
+  name: US_64_14@63
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 172.99.188.71
+  type: ss
+- cipher: aes-256-gcm
+  name: US_65_14@64
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: US_66_14@65
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.121.43.71
+  type: ss
+- cipher: aes-256-gcm
+  name: US_67_14@66
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 172.99.188.71
+  type: ss
+- cipher: aes-256-gcm
+  name: US_69_14@68
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 167.88.63.82
+  type: ss
+- cipher: aes-256-gcm
+  name: US_71_14@70
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 142.202.48.74
   type: ss
 - cipher: aes-256-gcm
   name: US_73_14@72
@@ -2471,50 +2476,20 @@ proxies:
   port: 3389
   server: 167.88.62.68
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: US_74_14@73
-  password: G!yBwPWH3Vao
-  port: 800
-  server: 162.251.61.221
-  type: ss
-- cipher: aes-256-gcm
-  name: US_75_14@74
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 142.202.48.74
-  type: ss
-- cipher: aes-256-gcm
-  name: US_76_14@75
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 167.88.63.82
-  type: ss
-- cipher: aes-256-gcm
-  name: US_77_14@76
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.121.43.71
-  type: ss
-- cipher: aes-256-gcm
-  name: US_78_14@77
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 167.88.63.82
-  type: ss
-- cipher: aes-256-gcm
-  name: US_79_14@78
   password: FoOiGlkAA9yPEGP
   port: 7306
   server: 142.202.48.74
   type: ss
-- cipher: aes-256-gcm
-  name: US_80_14@79
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 172.99.188.71
+- cipher: chacha20-ietf-poly1305
+  name: US_76_14@75
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 162.251.61.221
   type: ss
 - cipher: aes-256-cfb
-  name: US_83_14@82
+  name: US_77_14@76
   obfs: tls1.2_ticket_auth
   password: YFVrXZgRo
   port: 8081
@@ -2524,7 +2499,7 @@ proxies:
 - alterId: 32
   cipher: auto
   http-opts: {}
-  name: US_84_14@83
+  name: US_78_14@77
   network: tcp
   port: 443
   server: 51.81.223.10
@@ -2535,7 +2510,7 @@ proxies:
 - alterId: 4
   cipher: auto
   http-opts: {}
-  name: US_86_14@85
+  name: US_79_14@78
   network: ws
   port: 443
   server: viibah6u.com
@@ -2547,180 +2522,187 @@ proxies:
   ws-headers:
     HOST: viibah6u.com
   ws-path: /ws
-- name: US_87_14@86
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  port: 3052
-  server: kr05.wangxd.life
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_88_14@87
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-sg02.yiyodns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_89_14@88
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  port: 23425
-  server: usfree1.jiantian.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_90_14@89
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  port: 443
-  server: jgwhdlb3.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_91_14@90
-  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
-  port: 23802
-  server: s162.s2022.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_92_14@91
-  password: 4ZPDeqJ6g766UKDJ
-  port: 443
-  server: silicon.starspace.link
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_93_14@92
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  port: 443
-  server: fhcarm2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_94_14@93
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-us01.yiyodns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_95_14@94
+- name: US_80_14@79
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   port: 3052
   server: lsj02.wangxd.life
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_96_14@95
-  password: 5LN8SGTqxk336nFg
+- name: US_81_14@80
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   port: 443
-  server: wireless.starspace.link
+  server: jgwcc3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_97_14@96
-  password: sharecentre
+- name: US_82_14@81
+  password: da777aae-defb-41d0-a183-2c27da2b4677
   port: 443
-  server: ussc.scsevers.cf
+  server: jgwdj3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_98_14@97
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s1.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_99_14@98
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+- name: US_83_14@82
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
   port: 443
-  server: fhcamd2.gaox.ml
+  server: jgwcc2.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_100_14@99
+- name: US_84_14@83
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  port: 443
+  server: jgwhdlb1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_85_14@84
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_101_14@100
-  password: ukMzuFSmIXDvgW0h
+- name: US_86_14@85
+  password: sharecentre
   port: 443
-  server: cd.rutracker-cn.com
+  server: ussc.scsevers.cf
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_102_14@101
-  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
-  port: 26969
-  server: 198.200.51.219
+- name: US_87_14@86
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  port: 443
+  server: jgwhdlb3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_103_14@102
+- name: US_88_14@87
+  password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
+  port: 23802
+  server: s162.s2022.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_89_14@88
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  port: 443
+  server: tj-us01.yiyodns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_90_14@89
+  password: 4ZPDeqJ6g766UKDJ
+  port: 443
+  server: silicon.starspace.link
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_91_14@90
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  port: 443
+  server: fhcarm2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_92_14@91
+  password: 5LN8SGTqxk336nFg
+  port: 443
+  server: wireless.starspace.link
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_93_14@92
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   port: 443
   server: fhcarm1.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_104_14@103
-  password: 48ac743a-2d49-4191-b804-0c7fa7e01146
-  port: 443
-  server: mc.vpshax.ml
+- name: US_94_14@93
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  port: 3052
+  server: kr05.wangxd.life
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US_105_14@104
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  port: 443
-  server: jgwhdlb2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_106_14@105
+- name: US_95_14@94
   password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   port: 443
   server: tj-us02.yiyodns.xyz
   skip-cert-verify: true
   type: trojan
   udp: true
+- name: US_96_14@95
+  password: 48ac743a-2d49-4191-b804-0c7fa7e01146
+  port: 443
+  server: mc.vpshax.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_97_14@96
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  port: 443
+  server: tj-sg02.yiyodns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_98_14@97
+  password: 151dada5-c12e-4eb3-940e-d93f365f8a4a
+  port: 26969
+  server: 198.200.51.219
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_99_14@98
+  password: ukMzuFSmIXDvgW0h
+  port: 443
+  server: cd.rutracker-cn.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_100_14@99
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-256-gcm
-  name: ZZ_107_14@106
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 134.195.196.227
-  type: ss
-- cipher: aes-256-gcm
-  name: ZZ_108_14@107
+  name: ZZ_101_14@100
   password: cdBIDV42DCwnfIN
   port: 8118
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-gcm
-  name: ZZ_109_14@108
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 134.195.196.149
-  type: ss
-- cipher: aes-256-cfb
-  name: ZZ_110_14@109
-  password: KnJGad3FqTvjqbaX
-  port: 9014
-  server: 103.172.116.8
-  type: ss
-- cipher: aes-256-gcm
-  name: ZZ_111_14@110
+  name: ZZ_102_14@101
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 134.195.196.231
   type: ss
 - cipher: aes-256-cfb
-  name: ZZ_112_14@111
+  name: ZZ_103_14@102
   password: TPqX8edgbAURcAMb
   port: 9079
+  server: 103.172.116.8
+  type: ss
+- cipher: aes-256-gcm
+  name: ZZ_104_14@103
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.227
+  type: ss
+- cipher: aes-256-gcm
+  name: ZZ_105_14@104
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 134.195.196.149
+  type: ss
+- cipher: aes-256-cfb
+  name: ZZ_106_14@105
+  password: KnJGad3FqTvjqbaX
+  port: 9014
   server: 103.172.116.8
   type: ss
 proxy-groups:
@@ -3022,7 +3004,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -3043,48 +3026,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -3100,18 +3085,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -3410,7 +3389,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -3431,48 +3411,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -3488,18 +3470,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3802,7 +3778,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -3823,48 +3800,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -3880,18 +3859,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 - name: 📲 电报信息
   proxies:
@@ -4191,7 +4164,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -4212,48 +4186,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -4269,18 +4245,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -4580,7 +4550,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -4601,48 +4572,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -4658,18 +4631,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -4969,7 +4936,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -4990,48 +4958,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -5047,18 +5017,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5375,7 +5339,8 @@ proxy-groups:
   - AU_5_14@4
   - AU_6_14@5
   - AU_7_14@6
-  - CA_11_14@10
+  - CA_10_14@9
+  - CN_11_14@10
   - CN_12_14@11
   - CN_13_14@12
   - CN_14_14@13
@@ -5396,48 +5361,50 @@ proxy-groups:
   - GB_29_14@28
   - GB_30_14@29
   - GB_31_14@30
-  - HK_32_14@31
-  - IS_33_14@32
+  - IS_32_14@31
+  - LT_34_14@33
   - LT_35_14@34
   - LT_36_14@35
   - LT_37_14@36
-  - LT_38_14@37
+  - NL_39_14@38
   - NL_40_14@39
-  - NL_41_14@40
   - NL_42_14@41
-  - NL_44_14@43
-  - NL_46_14@45
-  - NL_47_14@46
-  - NL_50_14@49
-  - PL_51_14@50
-  - RS_52_14@51
-  - RU_53_14@52
-  - RU_54_14@53
-  - RU_55_14@54
-  - RU_56_14@55
-  - RU_57_14@56
-  - RU_58_14@57
-  - SG_60_14@59
-  - SG_61_14@60
-  - SG_62_14@61
-  - SG_63_14@62
-  - SG_64_14@63
-  - SG_65_14@64
-  - UA_66_14@65
-  - UA_67_14@66
-  - UA_68_14@67
-  - UA_69_14@68
-  - US_72_14@71
+  - PL_46_14@45
+  - RO_47_14@46
+  - RS_48_14@47
+  - RU_49_14@48
+  - RU_50_14@49
+  - RU_51_14@50
+  - RU_52_14@51
+  - SG_53_14@52
+  - SG_54_14@53
+  - SG_55_14@54
+  - SG_56_14@55
+  - SG_57_14@56
+  - SG_58_14@57
+  - UA_59_14@58
+  - UA_60_14@59
+  - UA_61_14@60
+  - UA_62_14@61
+  - UA_63_14@62
+  - US_64_14@63
+  - US_65_14@64
+  - US_66_14@65
+  - US_67_14@66
+  - US_69_14@68
+  - US_71_14@70
   - US_73_14@72
   - US_74_14@73
-  - US_75_14@74
   - US_76_14@75
   - US_77_14@76
   - US_78_14@77
   - US_79_14@78
   - US_80_14@79
+  - US_81_14@80
+  - US_82_14@81
   - US_83_14@82
   - US_84_14@83
+  - US_85_14@84
   - US_86_14@85
   - US_87_14@86
   - US_88_14@87
@@ -5453,18 +5420,12 @@ proxy-groups:
   - US_98_14@97
   - US_99_14@98
   - US_100_14@99
-  - US_101_14@100
-  - US_102_14@101
-  - US_103_14@102
-  - US_104_14@103
-  - US_105_14@104
-  - US_106_14@105
-  - ZZ_107_14@106
-  - ZZ_108_14@107
-  - ZZ_109_14@108
-  - ZZ_110_14@109
-  - ZZ_111_14@110
-  - ZZ_112_14@111
+  - ZZ_101_14@100
+  - ZZ_102_14@101
+  - ZZ_103_14@102
+  - ZZ_104_14@103
+  - ZZ_105_14@104
+  - ZZ_106_14@105
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
