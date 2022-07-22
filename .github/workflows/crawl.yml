@@ -1,0 +1,43 @@
+name: Update Subscribes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 * * * *'
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    - name: Install Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Load Cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/run_in_Actions/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    - name: Setup Timezone
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: Install Requirements
+      run: |
+        pip install -r requirements.txt
+    - name: Update Subscribe
+      run: |
+        python main.py
+    - name: Make Some Difference
+      run: |
+        echo "$(date '+%Y-%m-%d %H:%M:%S')" > .timestamp
+    - name: Commit Changes
+      run: |
+        git config core.ignorecase false
+        git config --local user.email "20682299+tbbatbb@users.noreply.github.com"
+        git config --local user.name "tbbatbb"
+        git add .
+        git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+        git push
